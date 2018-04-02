@@ -104,7 +104,7 @@ conversations:
   - La respuesta es 40.075 Km.
 - - "¿Cuál es la edad aproximada de la Tierra?"
   - La edad es 4.470 millones de años.
-categories:
+categor:
 - conversations
 conversations:
 - - Buenos días, ¿cómo estás?
