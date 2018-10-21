@@ -13,6 +13,10 @@ chatbot = ChatBot(
 #    )
 
 while True:
-   conversniveldios = raw_input("Tú >")
-   respuestniveldios = chatbot.get_response(conversniveldios)
-   print ("Botaco >"+str(respuestniveldios))
+      try:
+           conversniveldios = raw_input("Tú >")
+           respuestniveldios = chatbot.get_response(conversniveldios)
+           print ("Bot >"+str(respuestniveldios))
+
+      except:
+            print "lo siento no te entiendo"
