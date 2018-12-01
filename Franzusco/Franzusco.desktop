@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Franzusco
+Exec=/usr/bin/Franzuscos_app
+Type=Application
+Icon=/opt/Franzusco/Franzusco.jpg
+Comment=IA
+Categories=GTK;GNOME;

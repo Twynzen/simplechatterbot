@@ -1,0 +1,18 @@
+#usr/bin/bash
+
+cd etc
+cp Franzusco -Rf /etc/init.d/
+cd ..
+cd usr
+cp hola_franzusco -Rf /usr/bin/
+cp Franzuscos_app -Rf /usr/bin/
+cd ..
+cd opt
+cp Franzusco -Rf /opt/
+cd ..
+cp Franzusco.desktop -Rf /usr/share/applications
+chmod +x /usr/bin/hola_franzusco /usr/bin/Franzuscos_app
+python /etc/init.d/Franzusco/setup.py
+clear
+echo "su sistema ya está preparado"
+

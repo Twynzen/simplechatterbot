@@ -1,0 +1,4 @@
+#usr/bin/bash
+
+cd /etc/init.d/Franzuco
+xterm -e "hola_franzusco"
