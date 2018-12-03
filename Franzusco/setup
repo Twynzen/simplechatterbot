@@ -1,5 +1,5 @@
 #usr/bin/bash
-
+sudo apt-get install espeak
 cd etc
 cp Franzusco -Rf /etc/init.d/
 cd ..
